@@ -1,0 +1,61 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: coral;
+}
+.main{
+	margin-top: 120px;
+	border: 0px solid;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.display{
+	border: 25px solid black;
+	border-radius: 10px;
+	height: 510px;
+	width: 910px;
+	background-color:whitesmoke;
+	font-size: 20px;
+}
+.display h1{
+	text-align: center;
+	color:red;
+	text-shadow: 2px 2px 0px wheat;
+	font-size: 40px;
+
+}
+.display table{
+	border: 2px solid green;
+	font-size: 25px;
+	text-align: center;
+	width: 900px;
+	color: blue;
+}
+.display table th{
+	color: black;
+}
+.tab{
+	display: flex;
+	justify-content: center;
+}
+.display input{
+	height: 30px;
+	width: 260px;
+	margin-left: 10px;
+	border: 2px solid;
+	background-color: orange;
+	margin: 5px;
+	font-size: 17px;
+}
+.tab a{
+	color:chocolate;
+}
+.tab a:hover{
+	color: skyblue;
+}

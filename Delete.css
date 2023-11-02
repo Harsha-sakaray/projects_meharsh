@@ -1,0 +1,35 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: coral;
+}
+.main{
+	margin-top: 170px;
+	border: 0px solid;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.delete{
+	border: 25px solid black;
+	border-radius: 10px;
+	height: 200px;
+	width: 500px;
+	background-color:whitesmoke;
+	font-size: 20px;
+}
+.delete h1{
+	text-align: center;
+	color:red;
+	text-shadow: 2px 2px 0px wheat;
+	font-size: 40px;
+}
+.del{
+	display: flex;
+	justify-content: center;
+}

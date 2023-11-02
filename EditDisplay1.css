@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: coral;
+}
+.main{
+	margin-top: 170px;
+	border: 0px solid;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.editdisplay1{
+	border: 25px solid black;
+	border-radius: 10px;
+	height: 560px;
+	width: 900px;
+	background-color:whitesmoke;
+	font-size: 20px;
+}
+.editdisplay1 h1{
+	text-align: center;
+	color:red;
+	text-shadow: 2px 2px 0px wheat;
+	font-size: 40px;
+}
+.editdisplay1 h2{
+	text-align: center;
+	color:red;
+	text-shadow: 2px 2px 0px wheat;
+	font-size: 30px;
+}
+.editdisplay1 input{
+	height: 25px;
+	width: 200px;
+	margin-left: 10px;
+	border: 2px solid;
+	background-color: orange;
+	margin: 5px;
+	font-size: 17px;
+}
+.editdisplay1 table{
+	border: 2px solid green;
+	font-size: 25px;
+	text-align: center;
+	width: 900px;
+	color: blue;
+}
+.changes{
+	display: flex;
+	justify-content: center;
+}
+.editdisplay1 select{
+	height: 25px;
+	width: 200px;
+	margin-left: 10px;
+	border: 2px solid;
+	background-color: orange;
+	margin: 5px;
+	font-size: 17px;
+}
+.enterid{
+	display: flex;
+	justify-content: center;
+}
+.enterid input{
+	width: 100px;
+	background-color: wheat;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Task In TODOLIst</title>
+<link rel="stylesheet" href="css/AddTask.css">
+</head>
+<body>
+	<div class="main">
+		<div class="addtask">
+			<h1>Add Task</h1>
+			<form action="AddTask.jsp" method="post">
+				&nbsp;&nbsp;Title:<input type="text" name="title" required><br>
+				&nbsp;&nbsp;Description:<input type="text" name="description" required><br>
+				&nbsp;&nbsp;Target Date:<input type="date" name="targetdate" required><br>
+				&nbsp;&nbsp;Status:<select name="status">
+		    		<option value="">--select--</option>
+		    		<option value="completed">completed</option>
+		    		<option value="pending">pending</option>
+		    		<option value="started">started</option>
+				</select> <br><br><br>
+				<input type="submit" value="Add TASK">
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>
